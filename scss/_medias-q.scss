@@ -1,0 +1,34 @@
+@media (max-width: 768px){
+    .mejoras-item{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .container-fluid{
+        justify-content: flex-start !important;
+    }
+}
+@media (max-width: 425px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+        .lista-indice{
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 50%;
+    }
+    .gj-main{
+        max-width: 320px;
+    }
+    .footer-ul{
+        flex-direction: row;
+    }
+    .gj-header-img{
+        max-height: 45px;
+    }
+}
