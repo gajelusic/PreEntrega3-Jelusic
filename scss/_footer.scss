@@ -1,25 +1,27 @@
-footer {
+footer{
     background-color: #8D818C;
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #EEEEEE;
     text-align: left;
+    img{
+        height: 30px;
+    }
+    nav{
+        p{
+            font-size: 70%;
+            text-align: center;
+        }
+    }
 }
 .nav-footer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-}
-footer img {
-    height: 30px;
-}
-.footer-ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-footer nav p{
-    font-size: 70%;
-    text-align: center;
+    .footer-ul{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 }

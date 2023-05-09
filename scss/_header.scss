@@ -1,19 +1,24 @@
 .gj-header-img {
     height: 90px;
 }
-.gj-header a {
-    text-decoration: none;
-    color: #EEEEEE;
-}
-.gj-header nav {
-    width: 60%;
-    font-size: 90%;
+.gj-header{
+    a{
+        text-decoration: none;
+        color: #EEEEEE;
+    }
+    nav {
+        width: 60%;
+        font-size: 90%;
+    }
 }
 .container-fluid{
     background-color: #39393A;
 }
 .navbar-nav{
     background-color: #39393A;
+}
+.navbar-collapse{
+    flex-direction: row-reverse;
 }
 .nav-link{
     color: #f7f0f0;
