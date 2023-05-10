@@ -34,6 +34,9 @@
         margin-top: 5px;
     }
 }
+.aparicion{
+    animation: fadeIn 5s;
+}
 
 // Animaciones
 @keyframes fadeIn{
