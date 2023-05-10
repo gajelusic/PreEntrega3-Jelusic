@@ -37,20 +37,39 @@
     <!-- MAIN -->
     <main class="gj-main">
         <h1>Contactanos!</h1>
-        <p>Llená el siguiente formulario, y te contestaremos a la brevedad!</p>
-        <form action="#" method="get">
-            <p><input type="text" placeholder="Nombre" name="name"></p>
-            <p><input type="email" placeholder="E-Mail" name="email"></p>
-            <p style="color: white">.<textarea placeholder="Escriba su consulta aquí" name="consulta" rows="10"></textarea></p>
-            <p></p>
-            <p><input type="checkbox" name="suscribe" value="si">deseo recibir novedades de GJ Racing</p>
-            <p><input type="reset" class="btn btn-warning btn-sm"><input type="submit" class="btn btn-success btn-sm"></p>
-        </form>
-        <p>Estamos en:</p>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13110.372745787952!2d-58.40258640314943!3d-34.765839320340255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2952f239e85%3A0x6da5bbe95ddeb749!2sEstaci%C3%B3n%20Lomas%20de%20Zamora!5e0!3m2!1ses!2sar!4v1679918788454!5m2!1ses!2sar"
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contacto">
+            <section>
+                <p>Llená el siguiente formulario, y te contestaremos a la brevedad!</p>
+                <form action="#" method="get" enctype="text/plain" class="formulario">
+                    <div>
+                        <!-- <label for="nombre">Nombre y Apellido:</label> -->
+                        <input type="text" placeholder="Nombre y Apellido" name="nombre" autofocus>
+                    </div>
+                    <div>
+                        <!-- <label for="email">Email:</label> -->
+                        <input type="email" placeholder="E-Mail" name="email">
+                    </div>
+                    <div>
+                        <!-- <label for="consulta">Escriba su consulta:</label> -->
+                        <textarea placeholder="Escriba su consulta aquí" name="consulta" rows="10" cols="21"></textarea>
+                    </div>            
+                    <div>
+                        <input type="checkbox" name="suscribe" value="si">deseo recibir novedades de GJ Racing.
+                    </div>
+                    <div>
+                        <button type="reset" class="btn btn-warning btn-sm">Restablecer</button>
+                        <button type="submit" class="btn btn-success btn-sm">Enviar</button>
+                        <!-- <input type="reset" class="btn btn-warning btn-sm">
+                        <input type="submit" class="btn btn-success btn-sm"> -->
+                    </div>
+                </form>
+            </section>
+            <section>
+                <p>Estamos en:</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13110.372745787952!2d-58.40258640314943!3d-34.765839320340255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2952f239e85%3A0x6da5bbe95ddeb749!2sEstaci%C3%B3n%20Lomas%20de%20Zamora!5e0!3m2!1ses!2sar!4v1679918788454!5m2!1ses!2sar" width="320" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </div>
+        
     </main>
 
     <!-- FOOTER -->

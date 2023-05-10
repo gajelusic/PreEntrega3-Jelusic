@@ -1,0 +1,32 @@
+.contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    section{
+        margin: 20px;
+        p{
+            text-align: center;
+        }
+    }
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    align-items: center;
+    div{
+        padding-top: 6px;
+        input{
+            background-color: #c4ffff;
+            color: black;
+            padding-left: 4px;
+        }
+        textarea{
+            background-color: #c4ffff;
+            color: black;
+            padding-left: 4px;
+            padding-top: 4px;
+        }
+    }
+}
