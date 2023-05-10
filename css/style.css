@@ -3,35 +3,12 @@
   padding: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
-.gj-header-img {
-  height: 90px; }
-
-.gj-header a {
-  text-decoration: none;
-  color: #EEEEEE; }
-
-.gj-header nav {
-  width: 60%;
-  font-size: 90%; }
-
-.container-fluid {
-  background-color: #39393A; }
-
-.navbar-nav {
-  background-color: #39393A; }
-
-.navbar-collapse {
-  flex-direction: row-reverse; }
-
-.nav-link {
-  color: #f7f0f0; }
-
 .gj-main-index {
   background-color: #f7f0f0;
   position: relative; }
   .gj-main-index h3 {
     font-weight: bold;
-    color: black;
+    color: white;
     position: absolute;
     top: 120px;
     left: 30px; }
@@ -104,23 +81,54 @@
   100% {
     opacity: 1; } }
 
+.gj-header-img {
+  height: 90px; }
+
+.gj-header a {
+  text-decoration: none;
+  color: #EEEEEE; }
+
+.gj-header nav {
+  width: 60%;
+  font-size: 90%; }
+
+.container-fluid {
+  background-color: #39393A; }
+
+.navbar {
+  --bs-navbar-padding-y: 0; }
+
+.navbar-brand {
+  padding-top: 0;
+  height: 90px; }
+
+.navbar-collapse {
+  flex-direction: row-reverse; }
+
+.navbar-nav {
+  background-color: #39393A; }
+
+.nav-link {
+  color: #f7f0f0; }
+
 .gj-main {
   background-color: #f7f0f7;
   color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 20px; }
 
-main img {
+main
+img {
   width: 450px; }
 
-main input {
+input {
   padding: 3px;
   margin: 5px; }
 
-main ul {
+ul {
   list-style-type: none; }
 
-main a {
+a {
   text-decoration: none;
   color: #EEEEEE; }
 
@@ -156,10 +164,13 @@ main a {
 .aparicion {
   animation: fadeIn 5s; }
 
+h4 {
+  margin: 10px; }
+
 .mejoras {
   display: flex;
   flex-direction: column;
-  margin: 50px; }
+  margin: 20px; }
 
 .mejoras-item {
   display: flex;
@@ -167,10 +178,22 @@ main a {
   align-items: center;
   flex-wrap: nowrap;
   align-items: center; }
-
-.mejoras-item-rev {
-  flex-direction: row-reverse;
-  text-align: right; }
+  .mejoras-item div {
+    height: 120px;
+    margin: 10px; }
+    .mejoras-item div p {
+      padding-top: 10px;
+      padding-left: 10px; }
+  .mejoras-item img {
+    height: 100%;
+    width: auto; }
+  .mejoras-item div:hover {
+    background-color: #cce3ec; }
+    .mejoras-item div:hover img {
+      transform: scale(1.6);
+      transition: 1s;
+      background-image: linear-gradient(#f7f0f0, gray);
+      border: solid 0.5px black; }
 
 footer {
   background-color: #8D818C;

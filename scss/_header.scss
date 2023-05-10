@@ -12,13 +12,20 @@
     }
 }
 .container-fluid{
-    background-color: #39393A;
+    background-color: $color-header;
 }
-.navbar-nav{
-    background-color: #39393A;
+.navbar{
+    --bs-navbar-padding-y: 0;
+}
+.navbar-brand{
+    padding-top: 0;
+    height: 90px;
 }
 .navbar-collapse{
     flex-direction: row-reverse;
+}
+.navbar-nav{
+    background-color: $color-header;
 }
 .nav-link{
     color: #f7f0f0;

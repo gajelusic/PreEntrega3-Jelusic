@@ -1,9 +1,9 @@
 .gj-main-index{
-    background-color: #f7f0f0;
+    background-color: $color-main;
     position: relative;
     h3{
         font-weight: bold;
-        color: black;
+        color: white;
         position: absolute;
         top: 120px;
         left: 30px;
@@ -73,7 +73,7 @@
 }
 .gj-grid-footer{
     grid-area: gj-grid-footer;
-    background-color: #8D818C;
+    background-color: $color-footer;
     padding: 20px;
 }
 .gj-grid-footer img{

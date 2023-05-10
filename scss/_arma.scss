@@ -1,7 +1,10 @@
+h4{
+    margin: 10px;
+}
 .mejoras{
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 20px;
 }
 .mejoras-item{
     display: flex;
@@ -9,8 +12,25 @@
     align-items: center;
     flex-wrap: nowrap;
     align-items: center;
-}
-.mejoras-item-rev{
-    flex-direction: row-reverse;
-    text-align: right;    
+    div{
+        height: 120px;
+        margin: 10px;
+        p{
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+    }
+    img{
+        height: 100%;
+        width: auto;
+    }
+    div:hover{
+        background-color: rgb(204, 227, 236);
+        img{
+            transform: scale(1.6);
+            transition: 1s;
+            background-image: linear-gradient(#f7f0f0,gray);
+            border: solid 0.5px black;
+        }
+    }
 }
