@@ -1,14 +1,28 @@
 @media (max-width: 768px){
     .mejoras-item{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         text-align: center;
         justify-content: center;
+        font-size: small;
+        div{        
+            height: auto;
+        }
+        img{
+            height: 90px;
+        }
     }
     .container-fluid{
         justify-content: flex-start !important;
     }
 }
+
+@media (max-width: 450px){
+    .gj-header-img{
+        height: 80px;
+    }
+}
+
 @media (max-width: 425px){
     .lista-indice{
         margin: 0;
@@ -21,10 +35,28 @@
     .gj-main{
         min-width: 320px;
     }
+    .gj-main-index{
+        h3{
+            font-weight: bold;
+            color: white;
+            font-size: 75%;
+            position: absolute;
+            top: 90px;
+            left: 10px;
+        }
+    }
+    .gj-img-index{
+        width: 90vw;
+    }
     .footer-ul{
         flex-direction: row;
     }
+    .navbar-brand{
+        display: flex;
+        align-items: center;
+    }
     .gj-header-img{
-        max-height: 45px;
+        width: 70vw;
+        height: auto;
     }
 }

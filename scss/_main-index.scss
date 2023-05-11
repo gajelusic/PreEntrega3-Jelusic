@@ -1,0 +1,39 @@
+.gj-main {
+    background-color: #f7f0f7;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+main
+    img{
+        width: 450px;
+    }
+    input{
+        padding: 3px;
+        margin: 5px;
+    }
+    ul {
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: #EEEEEE;
+    }
+
+.ir-arriba {
+    display: block;
+    margin: 10px;
+    padding: 1px;
+    width: 75px;
+    height: 25px;
+    background-color: #000033;
+    position: sticky;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+}
+.ir-arriba a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 80%;
+}
