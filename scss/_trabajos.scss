@@ -1,7 +1,7 @@
 .gj-grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 100px 315px 315px 315px 150px;
+    grid-template-rows: 100px 300px 300px 300px 150px;
     gap: 10px 10px;
     grid-template-areas:
         "gj-grid-header gj-grid-header"

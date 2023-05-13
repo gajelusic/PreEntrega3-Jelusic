@@ -10,8 +10,8 @@
     font-weight: bold;
     color: white;
     position: absolute;
-    top: 120px;
-    left: 30px; }
+    top: 150px;
+    left: 50px; }
   .gj-main-index img {
     width: 100vw; }
 
@@ -140,14 +140,14 @@ h4 {
     background-color: #cce3ec; }
     .mejoras-item div:hover img {
       transform: scale(1.6);
-      transition: 1s;
+      transition: 0.5s;
       background-image: linear-gradient(#f7f0f0, gray);
       border: solid 0.5px black; }
 
 .gj-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 100px 315px 315px 315px 150px;
+  grid-template-rows: 100px 300px 300px 300px 150px;
   gap: 10px 10px;
   grid-template-areas: "gj-grid-header gj-grid-header" "gj-grid-txt1 gj-grid-video1" "gj-grid-txt2 gj-grid-video2" "gj-grid-txt3 gj-grid-video3" "gj-grid-footer gj-grid-footer"; }
 
@@ -277,8 +277,8 @@ footer {
     color: white;
     font-size: 75%;
     position: absolute;
-    top: 90px;
-    left: 10px; }
+    top: 80px;
+    left: 20px; }
   .gj-img-index {
     width: 90vw; }
   .footer-ul {
